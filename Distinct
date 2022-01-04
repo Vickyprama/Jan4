@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Distinct {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(1,2,3,5,22,45,62,1,8,83,3);              // distant remove the duplicate value
+        List<Integer> list = Arrays.asList(1,2,3,5,22,45,62,1,8,83,3);              // distinct remove the duplicate value
         list.stream()
                 .distinct()
                 .forEach(System.out::println);
